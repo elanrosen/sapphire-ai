@@ -15,7 +15,7 @@ A secondary goal of this project was to explore the Open AI API and potential fo
 ## Table of Contents
 
 1. [Background](#background)
-3. [User Flows](#user-flows)
+3. [Pages](#pages)
 4. [Capabilities](#capabilities)
 5. [Technical Architecture](#technical-architecture)
 6. [Setup Guide](#setup-guide)
@@ -26,37 +26,34 @@ A secondary goal of this project was to explore the Open AI API and potential fo
 Recruitment is a critical yet often cumbersome process for many organizations. Traditional methods involve significant manual effort in reaching out to potential candidates, particularly in personalizing communication. Sapphire AI addresses this challenge by automating the creation and distribution of personalized job outreach emails, thereby streamlining the recruitment workflow.
 
 
-## User Flows
+## User Interface
 
+### 1. Onboarding Page
 <p align="center">
-  <img src="readme_images/pages.svg" alt="Page Flows" width="700">
+  <img src="readme_images/onboarding.png" alt="Onboarding Page" width="500">
 </p>
 
-### 1. User Onboarding Flow
+### 2. Jobs Page
+<p align="center">
+  <img src="readme_images/jobs.png" alt="Jobs Page" width="500">
+</p>
 
-- **Step 1**: User inputs user & company information, including business nature and hiring roles.
-- **Step 2**: The system stores this information for future reference in email personalization.
+### 3. Email Generation Page
+<p align="center">
+  <img src="readme_images/email-gen.png" alt="Email Gen Page" width="500">
+</p>
 
-### 2. Job Management Flow
-
-- **Step 1**: User accesses the Jobs Page to view current job listings.
-- **Step 2**: User adds new job listings as needed, which are then displayed on the Jobs Page.
-
-### 3. Email Generation and Sending Flow
-
-- **Step 1**: User selects the desired jobs for which to generate recruitment emails.
-- **Step 2**: User chooses the number of recipients for each email.
-- **Step 3**: The system "sends" the emails to identified recipients. (assumes black-box AI to identify recipients)
-
-### 4. Feedback Submission Flow
-
-- **Step 1**: After generating a preview email, the user submits feedback on them.
-- **Step 2**: The system utilizes this feedback to improve future email generations.
-
+### 4. Email Send Overlay
+<p align="center">
+  <img src="readme_images/email-send.png" alt="Email Send Page" width="500">
+</p>
 
 ## Capabilities
 
 It's crucial to recognize that some user interface elements are conceptual placeholders, showcasing potential features. The actual functionalities available in this demo include:
+<p align="center">
+  <img src="readme_images/pages.svg" alt="Page Flows" width="700">
+</p>
 
 ### Onboarding
 
