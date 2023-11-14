@@ -15,7 +15,7 @@ A secondary goal of this project was to explore the Open AI API and potential fo
 ## Table of Contents
 
 1. [Background](#background)
-3. [Pages](#pages)
+3. [User Interface](#user-interface)
 4. [Capabilities](#capabilities)
 5. [Technical Architecture](#technical-architecture)
 6. [Setup Guide](#setup-guide)
