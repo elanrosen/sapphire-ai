@@ -2,35 +2,32 @@
 
 ## Overview
 
-Sapphire AI is a tool designed to automate the recruitment process by utilizing artificial intelligence. It focuses on generating personalized emails and managing recruitment data, aiming to simplify the outreach process to potential candidates.
+Sapphire AI is an innovative tool that leverages artificial intelligence to revolutionize the recruitment process. This application automates the creation and management of personalized emails, streamlining outreach to potential candidates. It's designed to simplify recruitment workflows, enhancing efficiency and user experience.
 
-### Important Notes
+This project provided an opportunity to enhance my front-end software engineering skills, resulting in a product that emphasizes a polished and user-friendly interface. While the back-end is functional, it's less comprehensive, reflecting a primary focus on the interface's aesthetic and interactive qualities. The UI includes various placeholder elements to demonstrate potential features.
 
-For me this project served as an opportunity for me to improve my front-end software engineering skills, leading to a product with a polished and user-friendly interface. Consequently, the back-end development, while functional, is less comprehensive, reflecting the focus on the aesthetic and interactive aspects of the application. Similarly, there are many placeholder elements of the UI.
+Exploring the capabilities of the OpenAI API, Sapphire AI also delves into the realm of sales and marketing technology.
 
-A secondary goal of this project was to explore the Open AI API and potential for sales and marketing technology.
-
-**Again, this isn't in a super polished state, as I only spent about 8 hours building this.**
+**Project State:** Please note that this project is in a developmental stage, built over approximately 8 hours, and may lack some advanced features.
 
 ---
 
-**Note on Deployment:**
+**Deployment Notes:**
 This project was not initially intended for deployment, and as such, there are a few unresolved issues specific to its hosted version on AWS:
 
-1. **Icon Loading Issue**: Some icons may not load correctly.
-2. **Job Editing Limitation**: While new jobs can be created, editing existing jobs is currently not possible.
-3. **OpenAI Features**: The online version does not enable OpenAI features, and appropriate error messages explaining this limitation have not been added yet.
+1. **Icon Loading Issue**: There may be inconsistencies in icon loading.
+2. **Job Editing Limitation**: Creation of new jobs is possible, but editing existing ones is not currently supported.
+3. **OpenAI Features**: The OpenAI functionalities are not enabled in the online version, and explanatory error messages are yet to be incorporated.
 
 ---
 
 ## Table of Contents
 
 1. [Background](#background)
-3. [User Interface](#user-interface)
-4. [Capabilities](#capabilities)
-5. [Technical Architecture](#technical-architecture)
-6. [Setup Guide](#setup-guide)
-
+2. [User Interface](#user-interface)
+3. [Capabilities](#capabilities)
+4. [Technical Architecture](#technical-architecture)
+5. [Setup Guide](#setup-guide)
 
 ## Background
 
