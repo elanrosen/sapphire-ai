@@ -13,7 +13,7 @@ A secondary goal of this project was to explore the Open AI API and potential fo
 ## Table of Contents
 
 1. [Background](#background)
-3. [Key User Flows](#key-user-flows)
+3. [User Flows](#user-flows)
 4. [Capabilities](#capabilities)
 5. [Technical Architecture](#technical-architecture)
 6. [Setup Guide](#setup-guide)
@@ -24,7 +24,11 @@ A secondary goal of this project was to explore the Open AI API and potential fo
 Recruitment is a critical yet often cumbersome process for many organizations. Traditional methods involve significant manual effort in reaching out to potential candidates, particularly in personalizing communication. Sapphire AI addresses this challenge by automating the creation and distribution of personalized job outreach emails, thereby streamlining the recruitment workflow.
 
 
-## Key User Flows
+## User Flows
+
+<p align="center">
+  <img src="readme_images/pages.svg" alt="Page Flows" width="700">
+</p>
 
 ### 1. User Onboarding Flow
 
@@ -47,36 +51,39 @@ Recruitment is a critical yet often cumbersome process for many organizations. T
 - **Step 1**: After generating a preview email, the user submits feedback on them.
 - **Step 2**: The system utilizes this feedback to improve future email generations.
 
+
 ## Capabilities
 
-The current implementation of Sapphire AI includes a variety of capabilities. However, it's important to note that several elements in the user interface serve as placeholders to demonstrate potential features. The actual functionalities implemented in this demo are as follows:
+It's crucial to recognize that some user interface elements are conceptual placeholders, showcasing potential features. The actual functionalities available in this demo include:
 
 ### Onboarding
 
-- **User Input Form**: Allows users to enter details about their business and recruitment needs, which are stored for future reference.
-- **Data Storage**: Information entered during onboarding is saved for subsequent use in email generation.
+- **User Input Form**: Users can input details about their business and recruitment needs. This information is crucial for tailoring the user experience and is stored for future reference.
+- **Data Storage**: The information provided during onboarding is securely saved, ensuring its availability for subsequent processes like email generation.
 
 ### Jobs Page
 
-- **Job Listings**: Displays saved job listings in a tabular format.
-- **Email Generation Navigation**: Clicking a job listing navigates to the email generation page for that job.
-- **Job Addition Feature**: Includes a button to add new job listings.
+- **Job Listings Display**: This feature presents the saved job listings in an organized, tabular format, allowing for easy viewing and management.
+- **Navigation to Email Generation**: Users can navigate to the email generation page for a specific job by clicking on a job listing.
+- **Addition of New Job Listings**: A dedicated feature for adding new job listings, enhancing the dynamic nature of job management.
 
 ### Email Operations
 
-- **Email Selection and Sending**: Facilitates the selection of jobs and initiation of the email sending process.
-- **Send Email Overlay**: A feature to select the number of email recipients.
-- **Email Generation and Storage**: Generates and stores emails based on selected jobs.
+- **Selection and Sending of Emails**: This functionality enables the selection of specific jobs for which emails need to be sent, streamlining the email sending process.
+- **Send Email Overlay**: A specialized overlay that allows users to specify the number of email recipients, adding a layer of customization to the email sending process.
+- **Email Generation and Data Storage**: The system is capable of generating emails based on the selected jobs and storing them efficiently for future reference.
 
 ### Email Generation Page
 
-- **Job Details Panel**: Enables input and editing of job-specific details.
-- **AI Feedback Panel**: Allows users to provide feedback on the AI-generated emails.
-- **Email Preview and Regeneration**: Offers a preview of the email content and the option to regenerate it.
+- **Job Details Panel**: This panel is designed for inputting and editing details specific to each job, ensuring that the emails generated are accurate and relevant.
+- **AI Feedback Mechanism**: Users can provide feedback on the AI-generated emails, which is crucial for the continuous improvement of the AI system.
+- **Preview and Regeneration of Emails**: Users are offered a preview of the email content with the option to regenerate it, ensuring satisfaction with the final output.
+
 
 ## Technical Architecture
-
-<img src="readme_images/arch-diagram.svg" alt="Architecture Diagram" width="600" height="400">
+<p align="center">
+    <img src="readme_images/arch-diagram.svg" alt="Architecture Diagram" width="900" height="500">
+</p>
 
 ### Front-End
 
@@ -93,6 +100,10 @@ The current implementation of Sapphire AI includes a variety of capabilities. Ho
 ### AI Engine
 
 - **OpenAI ChatGPT**: Integrated for intelligent and personalized email content generation.
+
+### Hosting
+
+- **AWS Amplify**: Open AI capabilites are disabled.
 
 # Setup Guide
 
