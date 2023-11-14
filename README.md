@@ -4,13 +4,24 @@
 
 Sapphire AI is a tool designed to automate the recruitment process by utilizing artificial intelligence. It focuses on generating personalized emails and managing recruitment data, aiming to simplify the outreach process to potential candidates.
 
-### Important Note
+### Important Notes
 
 For me this project served as an opportunity for me to improve my front-end software engineering skills, leading to a product with a polished and user-friendly interface. Consequently, the back-end development, while functional, is less comprehensive, reflecting the focus on the aesthetic and interactive aspects of the application. Similarly, there are many placeholder elements of the UI.
 
 A secondary goal of this project was to explore the Open AI API and potential for sales and marketing technology.
 
 **Again, this isn't in a super polished state, as I only spent about 8 hours building this.**
+
+---
+
+**Note on Deployment:**
+This project was not initially intended for deployment, and as such, there are a few unresolved issues specific to its hosted version on AWS:
+
+1. **Icon Loading Issue**: Some icons may not load correctly.
+2. **Job Editing Limitation**: While new jobs can be created, editing existing jobs is currently not possible.
+3. **OpenAI Features**: The online version does not enable OpenAI features, and appropriate error messages explaining this limitation have not been added yet.
+
+---
 
 ## Table of Contents
 
