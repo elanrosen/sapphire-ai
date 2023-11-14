@@ -1,0 +1,67 @@
+.form-field {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  left: 3710px;
+  position: relative;
+  top: -114px;
+  width: 368px;
+  /* height: 100%; */
+
+}
+
+
+.form-field .job-title {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 19.6px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.form-field .frame {
+  align-self: stretch;
+  background: none;
+  border: 1px solid;
+  border-color: var(--colorsgray-300);
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 19.6px;
+  margin-top: -1px;
+  padding: 5.5px 10px;
+  position: relative;
+  width: 100%;
+}
+
+.form-field .input-field-custom {
+  align-self: stretch;
+  background: none;
+  border: 1px solid;
+  border-color: var(--colorsgray-300);
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0;
+  margin-top: -1px;
+  box-sizing: border-box;
+  padding: 5.5px 10px;
+  position: relative;
+  height: 100%;
+  overflow: visible !important; /* Allow content to overflow */
+  white-space: normal !important; /* Allow text to wrap naturally */
+  word-wrap: break-word !important; /* Break long words to prevent overflow */}
+
+.error {
+  border: 1px solid rgb(249, 97, 97) !important;
+}
+
