@@ -6,11 +6,11 @@ Sapphire AI is a tool designed to automate the recruitment process by utilizing 
 
 ### Important Note
 
-For me this project served as an opportunity for me to improve my front-end software engineering skills, leading to a product with a polished and user-friendly interface. Consequently, the back-end development, while functional, is less comprehensive, reflecting the focus on the aesthetic and interactive aspects of the application.
+For me this project served as an opportunity for me to improve my front-end software engineering skills, leading to a product with a polished and user-friendly interface. Consequently, the back-end development, while functional, is less comprehensive, reflecting the focus on the aesthetic and interactive aspects of the application. Similarly, there are many placeholder elements of the UI.
 
 A secondary goal of this project was to explore the Open AI API and potential for sales and marketing technology.
 
-**Note, this isn't in a polished state, as I only spent about 8 hours on this.**
+**Again, this isn't in a super polished state, as I only spent about 8 hours building this.**
 
 ## Table of Contents
 
