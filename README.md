@@ -1,15 +1,41 @@
 # Sapphire AI: AI-Powered Recruitment Assistant
 
-## Table of Contents
-
-1. [Overview](#overview)
-2. [Capabilities](#capabilities)
-3. [Key User Flows and Functional Requirements](#key-user-flows-and-functional-requirements)
-4. [Technical Architecture](#technical-architecture)
-
 ## Overview
 
 Sapphire AI is a tool designed to automate the recruitment process by utilizing artificial intelligence. It focuses on generating personalized emails and managing recruitment data, aiming to simplify the outreach process to potential candidates.
+
+## Table of Contents
+
+1. [Background](#background)
+3. [Key User Flows and Functional Requirements](#key-user-flows-and-functional-requirements)
+2. [Capabilities](#capabilities)
+4. [Technical Architecture](#technical-architecture)
+
+## Background
+
+Recruitment is a critical yet often cumbersome process for many organizations. Traditional methods involve significant manual effort in reaching out to potential candidates, particularly in personalizing communication. Sapphire AI addresses this challenge by automating the creation and distribution of personalized job outreach emails, thereby streamlining the recruitment workflow.
+
+## Key User Flows and Functional Requirements
+
+### User Onboarding
+
+1. **Entering Business Information**: Users start by entering details about their company, including the nature of their business and the types of roles they are hiring for.
+2. **Data Storage**: This information is stored and used to personalize the recruitment emails.
+
+### Job Management
+
+1. **Viewing Job Listings**: Users can view all entered job listings on the Jobs Page.
+2. **Adding New Jobs**: Users can add new job listings, which will then appear on the Jobs Page.
+
+### Email Generation and Sending
+
+1. **Selecting Jobs for Emailing**: Users can select one or several jobs for which they wish to send out recruitment emails.
+2. **Customizing Email Recipients**: Users can choose the number of recipients for each email.
+3. **Email Creation and Review**: The system generates emails, which can then be reviewed and modified if necessary.
+
+### Feedback and AI Improvement
+
+1. **Providing Feedback on Emails**: After reviewing the generated emails, users can provide feedback, which is used to improve future email generations.
 
 ## Capabilities
 
@@ -37,28 +63,6 @@ The current implementation of Sapphire AI includes a variety of capabilities. Ho
 - **Job Details Panel**: Enables input and editing of job-specific details.
 - **AI Feedback Panel**: Allows users to provide feedback on the AI-generated emails.
 - **Email Preview and Regeneration**: Offers a preview of the email content and the option to regenerate it.
-
-## Key User Flows and Functional Requirements
-
-### User Onboarding
-
-1. **Entering Business Information**: Users start by entering details about their company, including the nature of their business and the types of roles they are hiring for.
-2. **Data Storage**: This information is stored and used to personalize the recruitment emails.
-
-### Job Management
-
-1. **Viewing Job Listings**: Users can view all entered job listings on the Jobs Page.
-2. **Adding New Jobs**: Users can add new job listings, which will then appear on the Jobs Page.
-
-### Email Generation and Sending
-
-1. **Selecting Jobs for Emailing**: Users can select one or several jobs for which they wish to send out recruitment emails.
-2. **Customizing Email Recipients**: Users can choose the number of recipients for each email.
-3. **Email Creation and Review**: The system generates emails, which can then be reviewed and modified if necessary.
-
-### Feedback and AI Improvement
-
-1. **Providing Feedback on Emails**: After reviewing the generated emails, users can provide feedback, which is used to improve future email generations.
 
 ## Technical Architecture
 
