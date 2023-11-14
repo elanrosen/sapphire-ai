@@ -1,87 +1,79 @@
 # Sapphire AI: AI-Powered Recruitment Assistant
 
+## Table of Contents
+
+1. [Overview](#overview)
+2. [Capabilities](#capabilities)
+3. [Key User Flows and Functional Requirements](#key-user-flows-and-functional-requirements)
+4. [Technical Architecture](#technical-architecture)
+
 ## Overview
 
-Sapphire AI is an innovative solution designed to revolutionize the recruitment process. Leveraging the power of artificial intelligence and natural language processing (NLP), Sapphire AI assists recruitment teams in automating and personalizing their outreach efforts. This project demonstrates a full-stack application that embodies the potential of AI in enhancing efficiency and personalization in recruitment.
+Sapphire AI is a tool designed to automate the recruitment process by utilizing artificial intelligence. It focuses on generating personalized emails and managing recruitment data, aiming to simplify the outreach process to potential candidates.
 
-## Project Context
+## Capabilities
 
-### Background
-
-Recruitment is a critical yet often cumbersome process for many organizations. Traditional methods involve significant manual effort in reaching out to potential candidates, particularly in personalizing communication. Sapphire AI addresses this challenge by automating the creation and distribution of personalized job outreach emails, thereby streamlining the recruitment workflow.
-
-### Key Qualities Addressed
-
-This project primarily focuses on the following qualities:
-
-1. **Technical Proficiency**: Showcasing full-stack development skills.
-2. **Effective Communication**: Demonstrating the capability of AI in crafting clear and personalized messages.
-3. **Problem-Solving**: Addressing the real-world challenge of recruitment efficiency.
-
-## Project Components
-
-Sapphire AI consists of several key components, each contributing to a seamless recruitment experience:
-
-### 1. Onboarding Ruby's AI
-
-The onboarding process is designed to be user-friendly, allowing Sapphire AI to learn crucial details about the hiring business. This includes job positions, company ethos, location, desired seniority, and the brand's voice/style. The gathered information is stored for future reference in email generation.
-
-### 2. Email Operations
-
-Sapphire AI excels in generating personalized emails for recruitment. It uses the data gathered during onboarding to tailor emails that resonate with each candidate's background and the job's specifics. These emails are not sent directly but are saved in a database.
-
-### 3. Collecting and Using Feedback
-
-Feedback is an integral part of Sapphire AI's learning process. The system allows recruiters to provide feedback on the generated messages, which is used to refine and improve future communications.
-
-## Project Features
+The current implementation of Sapphire AI includes a variety of capabilities. However, it's important to note that several elements in the user interface serve as placeholders to demonstrate potential features. The actual functionalities implemented in this demo are as follows:
 
 ### Onboarding
 
-- Easy-to-use form to input business and job-related information.
-- Data saved for future use in email generation.
+- **User Input Form**: Allows users to enter details about their business and recruitment needs, which are stored for future reference.
+- **Data Storage**: Information entered during onboarding is saved for subsequent use in email generation.
 
 ### Jobs Page
 
-- Displays a list of saved jobs.
-- Directs to specific job email generation pages.
-- Features an "Add Job" option for new entries.
+- **Job Listings**: Displays saved job listings in a tabular format.
+- **Email Generation Navigation**: Clicking a job listing navigates to the email generation page for that job.
+- **Job Addition Feature**: Includes a button to add new job listings.
 
 ### Email Operations
 
-- Email generation for selected jobs.
-- Overlay for selecting the number of recipients.
-- Generated emails stored in a backend database.
+- **Email Selection and Sending**: Facilitates the selection of jobs and initiation of the email sending process.
+- **Send Email Overlay**: A feature to select the number of email recipients.
+- **Email Generation and Storage**: Generates and stores emails based on selected jobs.
 
 ### Email Generation Page
 
-- Panel for inputting and editing job details.
-- AI feedback mechanism for refining email content.
-- Preview and regeneration options for emails.
+- **Job Details Panel**: Enables input and editing of job-specific details.
+- **AI Feedback Panel**: Allows users to provide feedback on the AI-generated emails.
+- **Email Preview and Regeneration**: Offers a preview of the email content and the option to regenerate it.
 
-### UI/UX
+## Key User Flows and Functional Requirements
 
-- Emphasis on user-friendly and intuitive design.
-- Additional features to enhance realism and user experience.
+### User Onboarding
+
+1. **Entering Business Information**: Users start by entering details about their company, including the nature of their business and the types of roles they are hiring for.
+2. **Data Storage**: This information is stored and used to personalize the recruitment emails.
+
+### Job Management
+
+1. **Viewing Job Listings**: Users can view all entered job listings on the Jobs Page.
+2. **Adding New Jobs**: Users can add new job listings, which will then appear on the Jobs Page.
+
+### Email Generation and Sending
+
+1. **Selecting Jobs for Emailing**: Users can select one or several jobs for which they wish to send out recruitment emails.
+2. **Customizing Email Recipients**: Users can choose the number of recipients for each email.
+3. **Email Creation and Review**: The system generates emails, which can then be reviewed and modified if necessary.
+
+### Feedback and AI Improvement
+
+1. **Providing Feedback on Emails**: After reviewing the generated emails, users can provide feedback, which is used to improve future email generations.
 
 ## Technical Architecture
 
 ### Front-End
 
-- Developed using JavaScript with React, focusing on a responsive and intuitive user interface.
+- **JavaScript with React**: The front-end is built using JavaScript and React, focusing on a responsive and intuitive interface.
 
 ### Back-End
 
-- Python with Flask framework, ensuring robust and efficient server-side operations.
+- **Python with Flask**: The back-end is developed using Python and Flask, ensuring effective data handling and server operations.
 
 ### Database
 
-- SQLite for storing information about sent emails and user inputs.
+- **SQLite**: Used for storing email content and user inputs, facilitating data management and retrieval.
 
 ### AI Engine
 
-- Integration with OpenAI's ChatGPT for intelligent and context-aware email content generation.
-
-## Conclusion
-
-Sapphire AI exemplifies the practical application of AI in the modern recruitment process. It stands as a testament to the potential of AI in transforming traditional business operations, making them more efficient, personalized, and user-friendly. This project not only showcases technical prowess in full-stack development but also highlights the innovative use of AI in solving real-world problems.
+- **OpenAI ChatGPT**: Integrated for intelligent and personalized email content generation.
