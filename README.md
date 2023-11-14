@@ -10,6 +10,8 @@ For me this project served as an opportunity for me to improve my front-end soft
 
 A secondary goal of this project was to explore the Open AI API and potential for sales and marketing technology.
 
+**Note, this isn't in a polished state, as I only spent about 8 hours on this.**
+
 ## Table of Contents
 
 1. [Background](#background)
