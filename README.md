@@ -8,6 +8,8 @@ This project provided an opportunity to enhance my front-end software engineerin
 
 Exploring the capabilities of the OpenAI API, Sapphire AI also delves into the realm of sales and marketing technology.
 
+**Demo Video** https://youtu.be/BCpS5gj4WB4
+
 **Project State:** Please note that this project is in a developmental stage, built over approximately 8 hours, and may lack some advanced features.
 
 ---
